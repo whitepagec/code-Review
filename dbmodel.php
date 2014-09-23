@@ -26,8 +26,7 @@ class JEventsDBModel
 
 		$this->datamodel = & $datamodel;
 
-		$params = JComponentHelper::getParams(JEV_COM_COMPONENT);
-
+		
 	}
 
 	function accessibleCategoryList($aid = null, $catids = null, $catidList = null, $allLanguages = false)
