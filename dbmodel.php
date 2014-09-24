@@ -3494,7 +3494,7 @@ class JEventsDBModel
 			$limitstring = "LIMIT $limitstart, $rows_per_page";
 		}
 
-		$where = "";
+		//$where = "";
 		$having = "";
 		if (!JRequest::getInt('showpast', 0))
 		{
@@ -3517,7 +3517,7 @@ class JEventsDBModel
 
 		}
 
-		$order = implode(',', array_map('app_db', $orders));
+		//$order = implode(',', array_map('app_db', $orders));
 
 		$total = 0;
 
@@ -3526,7 +3526,7 @@ class JEventsDBModel
 		$extrawhere = array();
 		$extrajoin = array();
 		$extrafields = "";  // must have comma prefix		
-		$needsgroup = false;
+		///$needsgroup = false;
 
 		$filterarray = array("published");
 		// If there are extra filters from the module then apply them now
