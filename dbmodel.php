@@ -3508,7 +3508,7 @@ class JEventsDBModel
 		}
 
 		$order = preg_replace("/[\t ]+/", '', $order);
-		$orders = explode(",", $order);
+		//$orders = explode(",", $order);
 
 		// this function adds #__events. to the beginning of each ordering field
 		function app_db($strng)
