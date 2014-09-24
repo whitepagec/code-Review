@@ -26,8 +26,8 @@ if (strpos($return_value, "-") === false){
 function xFunction($x1, $x2)
 {
   $xtotal = $x1+ $x2;
-  $b = "not in use"
-  echo "Sum of the two numbers is : $xtotal";
+  $b = "not in use";
+  echo "Sum of the two numbers is :" $xtotal;
 }
 xFunction(10);
 if (strpos($return_value, "-") === false){
